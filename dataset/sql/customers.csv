@@ -1,0 +1,61 @@
+customer_id,name,email,region,signup_date,tier
+1,Diego Khan,diego.khan1@example.com,Northeast,2023-09-08,Silver
+2,Aisha Johnson,aisha.johnson2@example.com,Northeast,2024-07-12,Silver
+3,Wei Costa,wei.costa3@example.com,West,2023-04-06,Bronze
+4,Noah Kim,noah.kim4@example.com,Pacific Northwest,2024-07-28,Silver
+5,Noah Ivanov,noah.ivanov5@example.com,West,2024-08-26,Bronze
+6,Lucas Nguyen,lucas.nguyen6@example.com,Southeast,2023-12-15,Silver
+7,Lucas Johnson,lucas.johnson7@example.com,Southeast,2023-12-11,Gold
+8,Fatima Smith,fatima.smith8@example.com,West,2025-05-17,Bronze
+9,Grace Lee,grace.lee9@example.com,Midwest,2025-01-17,Silver
+10,Ethan Ivanov,ethan.ivanov10@example.com,Northeast,2024-01-23,Gold
+11,Wei Ivanov,wei.ivanov11@example.com,Midwest,2024-09-25,Silver
+12,Kofi Chen,kofi.chen12@example.com,Pacific Northwest,2023-03-13,Bronze
+13,Maria Kim,maria.kim13@example.com,Midwest,2025-05-25,Gold
+14,Aisha Khan,aisha.khan14@example.com,West,2024-10-12,Bronze
+15,Tariq Chen,tariq.chen15@example.com,Southeast,2023-08-03,Bronze
+16,Hannah Muller,hannah.muller16@example.com,Northeast,2023-06-25,Silver
+17,Isabella Kim,isabella.kim17@example.com,Southeast,2023-10-04,Bronze
+18,Mei Ivanov,mei.ivanov18@example.com,Southeast,2025-05-13,Silver
+19,Ravi Garcia,ravi.garcia19@example.com,Southeast,2025-04-04,Silver
+20,Omar Osei,omar.osei20@example.com,Midwest,2024-08-03,Bronze
+21,Kofi Lopez,kofi.lopez21@example.com,Southeast,2024-02-10,Silver
+22,Kofi Silva,kofi.silva22@example.com,Southeast,2023-09-10,Bronze
+23,Chloe Ivanov,chloe.ivanov23@example.com,Pacific Northwest,2024-08-21,Bronze
+24,Priya Costa,priya.costa24@example.com,West,2023-05-22,Bronze
+25,Marcus Kowalski,marcus.kowalski25@example.com,Northeast,2025-05-31,Silver
+26,Fatima Johnson,fatima.johnson26@example.com,Southeast,2024-03-08,Silver
+27,Zoe Smith,zoe.smith27@example.com,West,2024-04-24,Bronze
+28,Marcus Muller,marcus.muller28@example.com,Pacific Northwest,2023-01-12,Gold
+29,Hannah Khan,hannah.khan29@example.com,Pacific Northwest,2025-02-26,Silver
+30,Diego Lopez,diego.lopez30@example.com,Northeast,2023-06-11,Bronze
+31,Ethan Nguyen,ethan.nguyen31@example.com,Midwest,2025-02-19,Gold
+32,Sofia Haddad,sofia.haddad32@example.com,Northeast,2023-11-02,Gold
+33,Tariq Haddad,tariq.haddad33@example.com,Pacific Northwest,2024-01-18,Bronze
+34,Ravi Rossi,ravi.rossi34@example.com,Pacific Northwest,2024-06-27,Gold
+35,Mei Nguyen,mei.nguyen35@example.com,Pacific Northwest,2023-01-20,Bronze
+36,Fatima Chen,fatima.chen36@example.com,Midwest,2023-09-04,Bronze
+37,Kofi Costa,kofi.costa37@example.com,Northeast,2024-05-12,Bronze
+38,Tariq Smith,tariq.smith38@example.com,Pacific Northwest,2023-05-12,Silver
+39,Hannah Kowalski,hannah.kowalski39@example.com,Pacific Northwest,2024-06-24,Bronze
+40,Olivia Lee,olivia.lee40@example.com,West,2024-07-06,Gold
+41,Ravi Patel,ravi.patel41@example.com,Midwest,2024-11-18,Bronze
+42,Diego Chen,diego.chen42@example.com,West,2024-04-07,Gold
+43,Fatima Kim,fatima.kim43@example.com,Southeast,2023-01-22,Bronze
+44,Sam Ivanov,sam.ivanov44@example.com,Southeast,2023-01-08,Silver
+45,Wei Garcia,wei.garcia45@example.com,Southeast,2023-02-02,Bronze
+46,Olivia Lopez,olivia.lopez46@example.com,Northeast,2023-10-13,Silver
+47,Hannah Kowalski,hannah.kowalski47@example.com,Southeast,2025-01-10,Silver
+48,Mei Costa,mei.costa48@example.com,Pacific Northwest,2025-03-14,Bronze
+49,Nadia Andersson,nadia.andersson49@example.com,Southeast,2024-11-05,Bronze
+50,Priya Chen,priya.chen50@example.com,West,2025-06-03,Bronze
+51,Chloe Garcia,chloe.garcia51@example.com,Northeast,2025-01-15,Bronze
+52,Omar Khan,omar.khan52@example.com,Southeast,2024-07-03,Bronze
+53,Ethan Johnson,ethan.johnson53@example.com,West,2024-04-18,Bronze
+54,Aisha Smith,aisha.smith54@example.com,West,2025-05-26,Silver
+55,Isabella Khan,isabella.khan55@example.com,Northeast,2024-07-07,Silver
+56,Tariq Nguyen,tariq.nguyen56@example.com,Northeast,2025-05-19,Gold
+57,Aisha Rossi,aisha.rossi57@example.com,West,2023-08-07,Bronze
+58,Olivia Osei,olivia.osei58@example.com,Northeast,2023-01-03,Bronze
+59,Kenji Muller,kenji.muller59@example.com,West,2024-12-14,Bronze
+60,Chloe Ivanov,chloe.ivanov60@example.com,West,2023-10-31,Bronze

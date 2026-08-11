@@ -1,0 +1,201 @@
+order_id,customer_id,order_date,status,total_amount,region
+1,1,2024-02-29,Delivered,68.0,Northeast
+2,1,2024-02-28,Delivered,924.0,Northeast
+3,2,2024-03-10,Delivered,1576.0,Northeast
+4,3,2024-02-10,Delivered,792.0,West
+5,3,2024-11-17,Delivered,754.0,West
+6,3,2025-04-14,Delivered,687.0,West
+7,3,2024-08-06,Delivered,218.0,West
+8,3,2025-01-13,Delivered,1195.0,West
+9,4,2025-07-21,Delivered,89.0,Pacific Northwest
+10,4,2024-09-27,Delivered,102.0,Pacific Northwest
+11,4,2024-06-08,Delivered,421.0,Pacific Northwest
+12,4,2024-09-27,Delivered,1324.0,Pacific Northwest
+13,4,2024-10-10,Delivered,474.0,Pacific Northwest
+14,4,2025-03-28,Delivered,1522.0,Pacific Northwest
+15,5,2025-07-19,Delivered,837.0,West
+16,5,2025-01-01,Delivered,805.0,West
+17,5,2025-02-20,Cancelled,278.0,West
+18,6,2024-01-26,Delivered,1643.0,Southeast
+19,6,2024-09-30,Delivered,449.0,Southeast
+20,6,2025-04-26,Delivered,664.0,Southeast
+21,6,2025-02-12,Delivered,138.0,Southeast
+22,7,2025-06-05,Delivered,1314.0,Southeast
+23,7,2024-02-09,Delivered,656.0,Southeast
+24,7,2025-01-29,Delayed,1115.0,Southeast
+25,8,2025-06-16,Delayed,1476.0,West
+26,9,2024-11-17,Delivered,68.0,Midwest
+27,9,2025-06-03,Delivered,1148.0,Midwest
+28,9,2025-01-23,Delivered,256.0,Midwest
+29,10,2024-01-01,Delivered,1554.0,Northeast
+30,10,2024-11-25,Delivered,862.0,Northeast
+31,10,2024-10-17,Delivered,904.0,Northeast
+32,10,2024-08-18,Processing,527.0,Northeast
+33,10,2024-03-15,Delivered,246.0,Northeast
+34,11,2024-09-06,Delivered,89.0,Midwest
+35,11,2025-03-11,Delivered,1902.0,Midwest
+36,11,2025-06-27,Cancelled,522.0,Midwest
+37,11,2025-07-15,Delivered,426.0,Midwest
+38,12,2024-09-10,Processing,544.0,Pacific Northwest
+39,12,2024-10-08,Delivered,924.0,Pacific Northwest
+40,12,2024-05-21,Delivered,908.0,Pacific Northwest
+41,13,2025-04-22,Delivered,1705.0,Midwest
+42,13,2024-01-21,Processing,1660.0,Midwest
+43,13,2025-07-13,Shipped,536.0,Midwest
+44,13,2025-05-12,Delivered,454.0,Midwest
+45,13,2025-04-23,Delayed,178.0,Midwest
+46,14,2025-07-31,Delivered,118.0,West
+47,14,2024-05-18,Processing,976.0,West
+48,14,2024-08-04,Delivered,1175.0,West
+49,14,2025-04-26,Delivered,129.0,West
+50,14,2024-03-11,Shipped,69.0,West
+51,15,2024-07-23,Processing,855.0,Southeast
+52,15,2024-04-27,Delivered,226.0,Southeast
+53,16,2024-04-27,Shipped,646.0,Northeast
+54,16,2024-11-15,Delivered,2245.0,Northeast
+55,17,2024-11-04,Processing,207.0,Southeast
+56,18,2024-12-21,Delivered,715.0,Southeast
+57,19,2024-04-18,Delivered,514.0,Southeast
+58,19,2024-06-29,Shipped,494.0,Southeast
+59,19,2024-10-01,Delivered,816.0,Southeast
+60,19,2024-09-06,Shipped,1084.0,Southeast
+61,20,2024-12-14,Delivered,577.0,Midwest
+62,20,2025-02-20,Delivered,339.0,Midwest
+63,20,2025-05-17,Delivered,458.0,Midwest
+64,21,2025-02-18,Delivered,622.0,Southeast
+65,21,2024-12-18,Delivered,484.0,Southeast
+66,22,2024-05-03,Shipped,860.0,Southeast
+67,22,2024-08-09,Shipped,357.0,Southeast
+68,23,2024-07-17,Delivered,1243.0,Pacific Northwest
+69,24,2024-02-16,Cancelled,286.0,West
+70,24,2024-10-18,Delivered,1044.0,West
+71,24,2025-05-18,Delivered,159.0,West
+72,25,2024-11-07,Delivered,875.0,Northeast
+73,25,2024-08-19,Shipped,870.0,Northeast
+74,25,2024-03-02,Delivered,69.0,Northeast
+75,25,2024-08-04,Delivered,159.0,Northeast
+76,25,2024-06-26,Delivered,2045.0,Northeast
+77,26,2025-04-26,Delivered,380.0,Southeast
+78,26,2025-04-09,Delivered,684.0,Southeast
+79,26,2024-07-21,Delivered,277.0,Southeast
+80,26,2024-03-14,Delivered,235.0,Southeast
+81,26,2025-04-24,Delivered,1033.0,Southeast
+82,27,2024-11-26,Delivered,229.0,West
+83,27,2024-01-22,Cancelled,944.0,West
+84,27,2025-03-28,Delayed,1015.0,West
+85,27,2024-04-03,Delivered,1112.0,West
+86,28,2024-10-22,Delivered,1403.0,Pacific Northwest
+87,28,2024-11-27,Delivered,1572.0,Pacific Northwest
+88,28,2024-07-11,Delivered,773.0,Pacific Northwest
+89,28,2024-10-21,Delivered,1413.0,Pacific Northwest
+90,29,2024-01-15,Delivered,189.0,Pacific Northwest
+91,29,2025-04-17,Delayed,260.0,Pacific Northwest
+92,29,2024-10-06,Delivered,963.0,Pacific Northwest
+93,29,2025-06-04,Shipped,816.0,Pacific Northwest
+94,29,2024-12-14,Delayed,1652.0,Pacific Northwest
+95,30,2025-05-16,Processing,1050.0,Northeast
+96,30,2024-11-25,Processing,937.0,Northeast
+97,30,2024-02-14,Delivered,1116.0,Northeast
+98,30,2024-02-07,Delivered,1024.0,Northeast
+99,30,2024-01-16,Shipped,1481.0,Northeast
+100,31,2025-02-11,Delivered,893.0,Midwest
+101,31,2025-05-14,Processing,39.0,Midwest
+102,31,2024-08-28,Delivered,1099.0,Midwest
+103,31,2024-04-12,Delivered,885.0,Midwest
+104,31,2025-01-02,Delivered,795.0,Midwest
+105,31,2024-07-03,Delivered,78.0,Midwest
+106,32,2024-09-03,Delivered,725.0,Northeast
+107,32,2025-04-15,Delivered,178.0,Northeast
+108,32,2024-10-21,Delivered,695.0,Northeast
+109,32,2024-11-02,Delivered,649.0,Northeast
+110,32,2024-08-30,Delivered,319.0,Northeast
+111,33,2024-10-08,Delivered,267.0,Pacific Northwest
+112,33,2025-05-23,Processing,574.0,Pacific Northwest
+113,33,2024-07-13,Delivered,864.0,Pacific Northwest
+114,33,2024-02-10,Delivered,714.0,Pacific Northwest
+115,34,2025-03-01,Delivered,555.0,Pacific Northwest
+116,34,2025-05-28,Delayed,636.0,Pacific Northwest
+117,34,2024-12-12,Processing,1749.0,Pacific Northwest
+118,34,2025-07-24,Delivered,2080.0,Pacific Northwest
+119,34,2024-09-25,Delivered,1084.0,Pacific Northwest
+120,34,2025-07-28,Delivered,635.0,Pacific Northwest
+121,35,2024-11-05,Delivered,159.0,Pacific Northwest
+122,35,2024-02-08,Delivered,1063.0,Pacific Northwest
+123,35,2025-07-07,Delivered,716.0,Pacific Northwest
+124,35,2025-05-16,Delivered,675.0,Pacific Northwest
+125,35,2024-08-29,Processing,118.0,Pacific Northwest
+126,35,2025-07-11,Delayed,1076.0,Pacific Northwest
+127,36,2024-08-05,Delivered,698.0,Midwest
+128,37,2024-05-08,Shipped,866.0,Northeast
+129,37,2024-08-09,Processing,336.0,Northeast
+130,38,2024-10-10,Processing,457.0,Pacific Northwest
+131,39,2024-01-27,Delivered,574.0,Pacific Northwest
+132,40,2024-09-28,Delivered,1341.0,West
+133,40,2024-04-21,Delivered,1164.0,West
+134,41,2024-11-04,Delivered,698.0,Midwest
+135,41,2025-02-15,Delivered,237.0,Midwest
+136,41,2025-03-30,Delivered,387.0,Midwest
+137,41,2024-05-31,Delivered,472.0,Midwest
+138,41,2025-01-25,Cancelled,414.0,Midwest
+139,42,2025-07-18,Shipped,607.0,West
+140,43,2025-04-09,Delivered,258.0,Southeast
+141,43,2024-11-16,Delivered,297.0,Southeast
+142,43,2024-04-05,Delivered,963.0,Southeast
+143,44,2024-12-03,Delivered,2031.0,Southeast
+144,44,2024-11-15,Delivered,377.0,Southeast
+145,44,2024-04-20,Delivered,1034.0,Southeast
+146,44,2025-07-28,Cancelled,117.0,Southeast
+147,44,2024-09-30,Delivered,345.0,Southeast
+148,45,2024-05-26,Delivered,667.0,Southeast
+149,45,2024-08-08,Delivered,1389.0,Southeast
+150,46,2024-02-23,Delivered,59.0,Northeast
+151,47,2025-03-29,Delivered,1003.0,Southeast
+152,47,2025-03-16,Delivered,1023.0,Southeast
+153,47,2024-01-08,Delivered,456.0,Southeast
+154,48,2024-05-02,Delivered,2330.0,Pacific Northwest
+155,48,2024-12-28,Delivered,449.0,Pacific Northwest
+156,48,2025-04-15,Delayed,1692.0,Pacific Northwest
+157,49,2024-10-23,Delivered,129.0,Southeast
+158,49,2025-04-16,Processing,1394.0,Southeast
+159,49,2025-02-14,Delivered,620.0,Southeast
+160,49,2025-06-06,Delivered,316.0,Southeast
+161,50,2024-05-31,Delivered,706.0,West
+162,50,2024-06-05,Shipped,477.0,West
+163,50,2025-05-20,Delivered,660.0,West
+164,50,2024-06-03,Delivered,781.0,West
+165,50,2024-03-16,Delivered,1162.0,West
+166,50,2025-06-03,Delivered,237.0,West
+167,51,2024-07-11,Delivered,1583.0,Northeast
+168,51,2025-05-31,Delivered,567.0,Northeast
+169,51,2025-03-24,Cancelled,436.0,Northeast
+170,51,2025-02-22,Shipped,207.0,Northeast
+171,51,2024-12-08,Delivered,417.0,Northeast
+172,51,2025-01-30,Delivered,1074.0,Northeast
+173,52,2024-12-24,Delivered,1190.0,Southeast
+174,52,2024-12-02,Processing,177.0,Southeast
+175,53,2025-06-04,Delivered,785.0,West
+176,53,2024-08-19,Cancelled,646.0,West
+177,53,2025-07-06,Processing,118.0,West
+178,53,2024-05-14,Delivered,744.0,West
+179,54,2025-03-24,Delivered,598.0,West
+180,54,2025-04-04,Delivered,347.0,West
+181,55,2025-03-27,Delivered,1244.0,Northeast
+182,55,2024-07-23,Processing,596.0,Northeast
+183,55,2025-05-07,Processing,102.0,Northeast
+184,56,2024-10-18,Delivered,496.0,Northeast
+185,57,2024-04-03,Delayed,437.0,West
+186,57,2025-02-28,Delivered,1056.0,West
+187,57,2024-11-22,Delayed,745.0,West
+188,57,2024-05-22,Shipped,735.0,West
+189,58,2025-06-24,Delivered,786.0,Northeast
+190,58,2025-04-13,Delivered,1060.0,Northeast
+191,58,2024-05-27,Delivered,78.0,Northeast
+192,58,2024-09-03,Delivered,326.0,Northeast
+193,58,2025-01-04,Delivered,898.0,Northeast
+194,59,2025-01-31,Cancelled,861.0,West
+195,60,2024-04-16,Shipped,1562.0,West
+196,60,2024-06-28,Processing,608.0,West
+197,60,2024-02-07,Delivered,69.0,West
+198,60,2024-02-12,Delivered,1265.0,West
+199,60,2024-07-14,Delivered,537.0,West
+200,60,2024-12-05,Delivered,1144.0,West

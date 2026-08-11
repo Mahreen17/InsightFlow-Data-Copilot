@@ -1,0 +1,111 @@
+[
+  {
+    "id": "sql-1",
+    "type": "sql",
+    "question": "How many customers are in the West region?",
+    "expected_answer": "14",
+    "notes": "Simple COUNT with a WHERE filter. Verifies basic SQL Agent correctness."
+  },
+  {
+    "id": "sql-2",
+    "type": "sql",
+    "question": "How many customers are on the Gold loyalty tier?",
+    "expected_answer": "10",
+    "notes": "Simple COUNT with WHERE filter on a different column."
+  },
+  {
+    "id": "sql-3",
+    "type": "sql",
+    "question": "What is the total revenue from Delivered orders in the Pacific Northwest region?",
+    "expected_answer": "$25,485",
+    "notes": "Requires filtering on two conditions (status AND region) and SUM aggregation."
+  },
+  {
+    "id": "sql-4",
+    "type": "sql",
+    "question": "Which product has the highest total quantity sold across all orders?",
+    "expected_answer": "CascadeDry Hydration Pack (84 units) -- note PeakLite Sleeping Bag, DriftWood Camp Hammock and TrailBlazer 65L Backpack are close behind at 83; accept any if the agent shows its working, since real-world 'top seller' queries are sensitive to tie-breaking.",
+    "notes": "Requires a JOIN between order_items and products, GROUP BY, and ORDER BY. This is the hardest pure-SQL question -- good for testing multi-table reasoning."
+  },
+  {
+    "id": "sql-5",
+    "type": "sql",
+    "question": "How many support tickets have the issue type 'Warranty Claim'?",
+    "expected_answer": "2",
+    "notes": "Simple COUNT with WHERE filter."
+  },
+  {
+    "id": "rag-1",
+    "type": "rag",
+    "question": "Can I return a tent after I've used it?",
+    "expected_answer": "No -- Camping Gear items (including tents) are final sale once the packaging seal is broken / the item has been used or field-tested, per the Return & Exchange Policy.",
+    "source_pdf": "01_return_and_exchange_policy.pdf"
+  },
+  {
+    "id": "rag-2",
+    "type": "rag",
+    "question": "What is the warranty on the TrailBlazer 65L Backpack?",
+    "expected_answer": "5 years standard (Backpacks category), plus TrailPeak's Lifetime Stitching Guarantee which covers stitching failures indefinitely.",
+    "source_pdf": "03_product_warranty_guide.pdf"
+  },
+  {
+    "id": "rag-3",
+    "type": "rag",
+    "question": "What are the benefits of being a Gold tier loyalty member?",
+    "expected_answer": "10% off all orders, free expedited shipping, and priority support queue (target 4 business hour first response).",
+    "source_pdf": "04_loyalty_tier_program_faq.pdf"
+  },
+  {
+    "id": "rag-4",
+    "type": "rag",
+    "question": "How should I store a tent to avoid voiding the warranty?",
+    "expected_answer": "Dry it fully before storage to prevent mildew (which voids the seam-seal warranty) and store loosely rather than tightly rolled.",
+    "source_pdf": "07_product_care_and_maintenance_guide.pdf"
+  },
+  {
+    "id": "rag-5",
+    "type": "rag",
+    "question": "Which regions offer phone support?",
+    "expected_answer": "Northeast, Midwest, and Pacific Northwest only.",
+    "source_pdf": "05_regional_support_hours_and_contacts.pdf"
+  },
+  {
+    "id": "hybrid-1",
+    "type": "hybrid",
+    "question": "Our Pacific Northwest customers had several delayed orders -- how many, and what does our SLA document say counts as delayed for that region?",
+    "expected_answer": "5 delayed orders in the Pacific Northwest (SQL). Per the Shipping & Regional SLA document, Pacific Northwest orders are considered delayed if delivery exceeds 5 business days (its standard window is 2-3 business days, the tightest of any region).",
+    "notes": "Requires SQL (count delayed orders in a region) AND RAG (SLA threshold for that region) combined into one answer.",
+    "source_pdf": "02_shipping_and_regional_sla.pdf"
+  },
+  {
+    "id": "hybrid-2",
+    "type": "hybrid",
+    "question": "How many warranty claims have been filed, and what's the process for filing one?",
+    "expected_answer": "2 warranty claims on file (SQL). Per the Product Warranty Guide, claims require proof of purchase (order number) and photos of the defect, are reviewed by Regional Customer Support, and are typically resolved within 10 business days (RAG).",
+    "notes": "Requires SQL count + RAG process description, synthesized into one answer.",
+    "source_pdf": "03_product_warranty_guide.pdf"
+  },
+  {
+    "id": "hybrid-3",
+    "type": "hybrid",
+    "question": "A Gold tier customer wants to return a pair of AllTerrain Hiking Boots they've worn on one hike. Are they eligible for a return, and how quickly should support respond given their tier?",
+    "expected_answer": "Not eligible for a standard return -- Footwear with visible outdoor wear is excluded from returns (though it may qualify for a warranty claim instead), per the Return & Exchange Policy. As a Gold tier customer, they should be routed to the priority support queue with a target first response of 4 business hours, per the Loyalty Tier Program FAQ.",
+    "notes": "Requires reasoning across two PDFs plus understanding that 'Gold tier' is a customer attribute (SQL-checkable) even though this specific question doesn't require querying the DB for a number.",
+    "source_pdf": ["01_return_and_exchange_policy.pdf", "04_loyalty_tier_program_faq.pdf"]
+  },
+  {
+    "id": "mcp-1",
+    "type": "mcp",
+    "question": "What is today's date, and how many days ago was the most recent order placed?",
+    "expected_answer": "Requires the MCP 'current date' tool for today's date, combined with a SQL MAX(order_date) query, then a date-difference calculation.",
+    "notes": "Tests whether the Orchestrator can combine an MCP tool call with a SQL Agent call."
+  },
+  {
+    "id": "mcp-2",
+    "type": "mcp",
+    "question": "If I place an order today, roughly what calendar date should I expect delivery in the Southeast region?",
+    "expected_answer": "Requires the MCP 'current date' tool for today's date, plus the Southeast standard delivery window of 4-6 business days from the Shipping & Regional SLA document, to compute an approximate delivery date.",
+    "notes": "Tests MCP tool + RAG combined (three-way if you also validate against SQL order history).",
+    "source_pdf": "02_shipping_and_regional_sla.pdf"
+  }
+]

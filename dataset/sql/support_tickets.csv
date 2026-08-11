@@ -1,0 +1,32 @@
+ticket_id,customer_id,order_id,issue_type,status,created_date,region
+1,7,24,Late Delivery,Resolved,2025-02-03,Southeast
+2,8,25,Late Delivery,Resolved,2025-06-26,West
+3,13,45,Late Delivery,Open,2025-04-30,Midwest
+4,27,84,Late Delivery,Open,2025-04-06,West
+5,29,91,Late Delivery,Escalated,2025-04-26,Pacific Northwest
+6,29,94,Late Delivery,Escalated,2024-12-19,Pacific Northwest
+7,34,116,Late Delivery,Resolved,2025-06-04,Pacific Northwest
+8,35,126,Late Delivery,Open,2025-07-15,Pacific Northwest
+9,48,156,Late Delivery,Resolved,2025-04-23,Pacific Northwest
+10,57,185,Late Delivery,Resolved,2024-04-10,West
+11,57,187,Late Delivery,Resolved,2024-12-01,West
+12,53,177,Return Request,Resolved,2025-07-21,West
+13,4,11,Sizing Issue,Resolved,2024-06-20,Pacific Northwest
+14,24,71,Late Delivery,Resolved,2025-05-20,West
+15,29,94,Billing Question,Resolved,2024-12-31,Pacific Northwest
+16,3,8,Sizing Issue,Resolved,2025-01-18,West
+17,4,9,Late Delivery,Resolved,2025-07-26,Pacific Northwest
+18,60,200,Return Request,Resolved,2024-12-17,West
+19,44,146,Sizing Issue,Resolved,2025-07-30,Southeast
+20,52,174,Return Request,Resolved,2024-12-17,Southeast
+21,33,114,Sizing Issue,Resolved,2024-02-13,Pacific Northwest
+22,41,136,Warranty Claim,Resolved,2025-04-11,Midwest
+23,51,167,Product Defect,Open,2024-07-20,Northeast
+24,3,7,Warranty Claim,Escalated,2024-08-12,West
+25,31,100,Late Delivery,Resolved,2025-03-01,Midwest
+26,60,199,Billing Question,Resolved,2024-07-23,West
+27,17,55,Return Request,Resolved,2024-11-24,Southeast
+28,15,52,Product Defect,Open,2024-05-01,Southeast
+29,34,116,Billing Question,Resolved,2025-06-03,Pacific Northwest
+30,7,23,Billing Question,Resolved,2024-02-20,Southeast
+31,55,182,Sizing Issue,Escalated,2024-07-26,Northeast
