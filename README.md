@@ -16,11 +16,12 @@ InsightFlow AI is an intelligent data and knowledge assistant that transforms ho
 
 ## Quick Links
 
-- **[Live Demo](https://insightflow-data-copilot.streamlit.app/)** — Try InsightFlow AI online right now
-- **[View on GitHub](https://github.com/Mahreen17/InsightFlow-Data-Copilot)** — Star the repo if you find it useful
-- **[Report an Issue](https://github.com/Mahreen17/InsightFlow-Data-Copilot/issues)** — Found a bug? Let us know
-- **[Start a Discussion](https://github.com/Mahreen17/InsightFlow-Data-Copilot/discussions)** — Share ideas and ask questions
-- **[Get Your Gemini API Key](https://aistudio.google.com/app/apikey)** — Required for first-time setup
+- **[Live Demo](https://insightflow-data-copilot.streamlit.app/)** - Try InsightFlow AI online right now
+- **[View on GitHub](https://github.com/Mahreen17/InsightFlow-Data-Copilot)** - Star the repo if you find it useful
+- **[Report an Issue](https://github.com/Mahreen17/InsightFlow-Data-Copilot/issues)** - Found a bug? Let us know
+- **[Start a Discussion](https://github.com/Mahreen17/InsightFlow-Data-Copilot/discussions)** - Share ideas and ask questions
+- **[Get Your Gemini API Key](https://aistudio.google.com/app/apikey)** - Required for first-time setup
+- **[Application demo video](https://drive.google.com/file/d/136lBpBk9jbv-vm4YLs9YyQDpNGAABdoM/view?usp=sharing)** - A quick look at the project, its features, and how it works.
 
 ---
 
